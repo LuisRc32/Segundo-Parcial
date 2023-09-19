@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+	int NumAl,SumAl,X,Y,A;
+	srand(time(NULL));
+/*	
+//Ejercicio 1
+	do{
+		NumAl=rand()%100;
+		SumAl=SumAl+NumAl;
+		printf("Numero aleatorio: %d\n",NumAl);
+		
+	}while (NumAl > 20);
+	
+	printf("\nLa suma de los numeros aleatorios: %d\n",SumAl);
+*/	
+//Ejercicio 2	
+	printf("Ingrese la cantidad de numeros a revisar:\n");
+	scanf ("%d",&X);
+	
+	do{
+		NumAl=rand()%100;
+		
+		if(NumAl%2 == 0){
+			printf("Numero aleatorio: %d\n",NumAl);	
+			A=A+NumAl;
+			Y++;
+		}else{
+			
+		}
+		
+	}while(NumAl > X);
+	printf("\nLa suma de los numeros pares aleatorios: %d\n",A);
+/*	
+//Ejercicio 3
+	do{
+		NumAl=rand()%6;
+		
+	}while(NumAl >=1);
+	printf("\n");
+*/	
+	printf("\n\n-------FIN DEL PROGRAMA-------");	
+	return 0;
+}
