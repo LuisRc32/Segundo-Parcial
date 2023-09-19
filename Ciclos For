@@ -1,0 +1,111 @@
+#include <stdio.h>
+
+int main() {
+	int i=0,sum=0,cont,x,y=1,z,Num1,Num2, letreros=0, N=0;
+	float Suma=0,cant,num;
+	/*
+//Ejemplo 1
+	for (x=1; x<=100; x++){
+		printf("%d\n",i);
+	}
+
+//Ejemplo 2	
+	for (i=1; i<=100; i++){
+		if (i%2 == 0){
+			printf("%d\n",i);
+			sum+=i;
+		}	
+	}
+	
+//Ejemplo 3	
+	printf("0\n1\n");
+	for (cont=1; cont<=18; cont=cont+1){
+		z=i+y;
+		printf("%d\n",z);
+		i=y;
+		y=z;
+	}
+	
+//Ejemplo 4
+	printf("Ingrese cuantos valores se va a calcular para el promedio:\n");
+	scanf ("%f",&num);
+	for (i=1; i<=num; i++){
+		printf("Ingrese el numero: \n");
+		scanf ("%f",&cant);
+		Suma=Suma+cant;
+	}
+	Suma=Suma/num;
+	printf("El promedio es: %f",Suma);
+	
+//Ejemplo 5
+	printf("Ingrese el primer numero:\n");
+	scanf ("%d",&Num1);
+	printf("Ingrese el segundo numero:\n");
+	scanf ("%d",Num2);
+	
+	if (Num1 > Num2){
+		printf("Los valores son incorrectos\n");
+	}
+	for (x=Num1; x<=Num2; x++){
+		if (x%2 == 0){
+			printf("%d\n",x);
+		}
+	}
+	
+//Ejemplo 6
+	int A=0,B=0;
+	
+	while (A != 4){
+		printf("-----MENU-----\n");
+		printf("--------------\n");
+		printf("1.- While. \n");
+		printf("2.- Do_while. \n");
+		printf("3.- For. \n");
+		printf("4.- Salida\n\n");
+		
+		printf("Ingrese el ciclo que quiere:\n");
+		scanf ("%d",&A);
+		system ("cls");
+		if (A < 4){
+			switch (A){
+				case 1: printf("Ingrese el numero de letreros:\n");
+						scanf ("%d",&letreros);
+						
+						while (num < letreros){
+							printf("Hola mundo\n");	
+							num++;
+						}//Fin de While
+						printf("\n");
+					break;
+					
+				case 2: printf("Ingrese el numero de letreros:\n");
+						scanf ("%d",&letreros);
+						
+						do{
+							printf("Hola mundo\n");
+							num++;
+						}while (num < letreros);//Fin de Do-while
+						printf("\n");
+					break;
+					
+				case 3: printf("Ingrese el numero de letreros:\n");
+						scanf ("%d",&letreros);
+						
+						for (x=0; x<letreros; x++){
+							printf("hola mundo\n");
+						}//Fin de for
+						printf("\n");
+					break;
+					
+			}//Fin de switch
+		}else{
+		}//Fin del primer if
+		if (A > 4 || A<=0){
+			printf("Error. No existe esta opcion en el menu\n");
+			printf("reintente de nuevo...\n\n");	
+		}//Fin del segundo if
+	}//Fin de while
+*/	
+	printf("\n\n---------FIN DEL PROGRAMA---------");
+	return 0;
+}
